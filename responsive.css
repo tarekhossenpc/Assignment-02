@@ -1,8 +1,8 @@
 /* header-section-start */
 .header-section{
     display: flex;
-    justify-content: space-around;
-    margin-top: 30px;
+    justify-content: space-between;
+    margin: 30px 150px 120px 150px;
 }
 
 
@@ -23,4 +23,54 @@
     color: rgba(37, 36, 50, 1);
     font-weight: 600;
 }
+.fa-solid{
+    margin-right: 2px;
+}
 /* header-section-end*/
+
+/* fresh-flower-section-start */
+.fresh-flower-cointainer{
+    display: flex;
+    margin: 0px 150px 120px 150px;
+    justify-content: center;
+    align-items: center;
+}
+.fresh-flower-heading{
+    font-size: 4rem;
+    font-weight: bold;
+    margin-bottom: 13px;
+}
+span{
+    color: rgba(233, 90, 8, 1);
+}
+.fresh-flower-paragraph{
+    color:rgba(0, 0, 0, 0.5) ;
+    font-size:1.4rem ;
+    
+}
+
+.heroimage{
+    height: 355px;
+    width: 570px;
+}
+
+/* fresh-flower-section-end */
+/* plant-section-start */
+.plant-grid{
+    display: grid;
+    grid-template: repeat(4,1fr)/repeat(4,1fr);
+    column-gap: 20px;
+    row-gap: 30px;
+}
+.plant-section{
+    margin: 0px 150px 210px 150px;
+}
+.plant-section-headings{
+    font-size: 3.1rem;
+    font-weight: bold;
+    text-align: center;
+}
+.plant-section-paragraph{
+    color: rgba(0, 0, 0, 0.5);
+    text-align: center;
+}
